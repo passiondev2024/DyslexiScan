@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2694FB12BA9C0CF0042A2BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2694FB02BA9C0CF0042A2BC /* AppDelegate.swift */; };
+		E2694FB32BA9C0CF0042A2BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2694FB22BA9C0CF0042A2BC /* SceneDelegate.swift */; };
+		E2694FB52BA9C0CF0042A2BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2694FB42BA9C0CF0042A2BC /* ViewController.swift */; };
+		E2694FB82BA9C0CF0042A2BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2694FB62BA9C0CF0042A2BC /* Main.storyboard */; };
+		E2694FBB2BA9C0CF0042A2BC /* Dyslexi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E2694FB92BA9C0CF0042A2BC /* Dyslexi.xcdatamodeld */; };
+		E2694FBD2BA9C0D20042A2BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2694FBC2BA9C0D20042A2BC /* Assets.xcassets */; };
+		E2694FC02BA9C0D20042A2BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2694FBE2BA9C0D20042A2BC /* LaunchScreen.storyboard */; };
+		E2694FCB2BA9C0D20042A2BC /* DyslexiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2694FCA2BA9C0D20042A2BC /* DyslexiTests.swift */; };
+		E2694FD52BA9C0D20042A2BC /* DyslexiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2694FD42BA9C0D20042A2BC /* DyslexiUITests.swift */; };
+		E2694FD72BA9C0D20042A2BC /* DyslexiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2694FD62BA9C0D20042A2BC /* DyslexiUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2694FC72BA9C0D20042A2BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2694FA52BA9C0CF0042A2BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2694FAC2BA9C0CF0042A2BC;
+			remoteInfo = Dyslexi;
+		};
+		E2694FD12BA9C0D20042A2BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2694FA52BA9C0CF0042A2BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2694FAC2BA9C0CF0042A2BC;
+			remoteInfo = Dyslexi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E2694FAD2BA9C0CF0042A2BC /* Dyslexi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dyslexi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2694FB02BA9C0CF0042A2BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E2694FB22BA9C0CF0042A2BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E2694FB42BA9C0CF0042A2BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E2694FB72BA9C0CF0042A2BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E2694FBA2BA9C0CF0042A2BC /* Dyslexi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dyslexi.xcdatamodel; sourceTree = "<group>"; };
+		E2694FBC2BA9C0D20042A2BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2694FBF2BA9C0D20042A2BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E2694FC12BA9C0D20042A2BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2694FC62BA9C0D20042A2BC /* DyslexiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DyslexiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2694FCA2BA9C0D20042A2BC /* DyslexiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DyslexiTests.swift; sourceTree = "<group>"; };
+		E2694FD02BA9C0D20042A2BC /* DyslexiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DyslexiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2694FD42BA9C0D20042A2BC /* DyslexiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DyslexiUITests.swift; sourceTree = "<group>"; };
+		E2694FD62BA9C0D20042A2BC /* DyslexiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DyslexiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2694FAA2BA9C0CF0042A2BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2694FC32BA9C0D20042A2BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2694FCD2BA9C0D20042A2BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2694FA42BA9C0CF0042A2BC = {
+			isa = PBXGroup;
+			children = (
+				E2694FAF2BA9C0CF0042A2BC /* Dyslexi */,
+				E2694FC92BA9C0D20042A2BC /* DyslexiTests */,
+				E2694FD32BA9C0D20042A2BC /* DyslexiUITests */,
+				E2694FAE2BA9C0CF0042A2BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2694FAE2BA9C0CF0042A2BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2694FAD2BA9C0CF0042A2BC /* Dyslexi.app */,
+				E2694FC62BA9C0D20042A2BC /* DyslexiTests.xctest */,
+				E2694FD02BA9C0D20042A2BC /* DyslexiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2694FAF2BA9C0CF0042A2BC /* Dyslexi */ = {
+			isa = PBXGroup;
+			children = (
+				E2694FB02BA9C0CF0042A2BC /* AppDelegate.swift */,
+				E2694FB22BA9C0CF0042A2BC /* SceneDelegate.swift */,
+				E2694FB42BA9C0CF0042A2BC /* ViewController.swift */,
+				E2694FB62BA9C0CF0042A2BC /* Main.storyboard */,
+				E2694FBC2BA9C0D20042A2BC /* Assets.xcassets */,
+				E2694FBE2BA9C0D20042A2BC /* LaunchScreen.storyboard */,
+				E2694FC12BA9C0D20042A2BC /* Info.plist */,
+				E2694FB92BA9C0CF0042A2BC /* Dyslexi.xcdatamodeld */,
+			);
+			path = Dyslexi;
+			sourceTree = "<group>";
+		};
+		E2694FC92BA9C0D20042A2BC /* DyslexiTests */ = {
+			isa = PBXGroup;
+			children = (
+				E2694FCA2BA9C0D20042A2BC /* DyslexiTests.swift */,
+			);
+			path = DyslexiTests;
+			sourceTree = "<group>";
+		};
+		E2694FD32BA9C0D20042A2BC /* DyslexiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E2694FD42BA9C0D20042A2BC /* DyslexiUITests.swift */,
+				E2694FD62BA9C0D20042A2BC /* DyslexiUITestsLaunchTests.swift */,
+			);
+			path = DyslexiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2694FAC2BA9C0CF0042A2BC /* Dyslexi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2694FDA2BA9C0D20042A2BC /* Build configuration list for PBXNativeTarget "Dyslexi" */;
+			buildPhases = (
+				E2694FA92BA9C0CF0042A2BC /* Sources */,
+				E2694FAA2BA9C0CF0042A2BC /* Frameworks */,
+				E2694FAB2BA9C0CF0042A2BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dyslexi;
+			productName = Dyslexi;
+			productReference = E2694FAD2BA9C0CF0042A2BC /* Dyslexi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E2694FC52BA9C0D20042A2BC /* DyslexiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2694FDD2BA9C0D20042A2BC /* Build configuration list for PBXNativeTarget "DyslexiTests" */;
+			buildPhases = (
+				E2694FC22BA9C0D20042A2BC /* Sources */,
+				E2694FC32BA9C0D20042A2BC /* Frameworks */,
+				E2694FC42BA9C0D20042A2BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2694FC82BA9C0D20042A2BC /* PBXTargetDependency */,
+			);
+			name = DyslexiTests;
+			productName = DyslexiTests;
+			productReference = E2694FC62BA9C0D20042A2BC /* DyslexiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E2694FCF2BA9C0D20042A2BC /* DyslexiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2694FE02BA9C0D20042A2BC /* Build configuration list for PBXNativeTarget "DyslexiUITests" */;
+			buildPhases = (
+				E2694FCC2BA9C0D20042A2BC /* Sources */,
+				E2694FCD2BA9C0D20042A2BC /* Frameworks */,
+				E2694FCE2BA9C0D20042A2BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2694FD22BA9C0D20042A2BC /* PBXTargetDependency */,
+			);
+			name = DyslexiUITests;
+			productName = DyslexiUITests;
+			productReference = E2694FD02BA9C0D20042A2BC /* DyslexiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2694FA52BA9C0CF0042A2BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					E2694FAC2BA9C0CF0042A2BC = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					E2694FC52BA9C0D20042A2BC = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = E2694FAC2BA9C0CF0042A2BC;
+					};
+					E2694FCF2BA9C0D20042A2BC = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = E2694FAC2BA9C0CF0042A2BC;
+					};
+				};
+			};
+			buildConfigurationList = E2694FA82BA9C0CF0042A2BC /* Build configuration list for PBXProject "Dyslexi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2694FA42BA9C0CF0042A2BC;
+			productRefGroup = E2694FAE2BA9C0CF0042A2BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2694FAC2BA9C0CF0042A2BC /* Dyslexi */,
+				E2694FC52BA9C0D20042A2BC /* DyslexiTests */,
+				E2694FCF2BA9C0D20042A2BC /* DyslexiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2694FAB2BA9C0CF0042A2BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2694FC02BA9C0D20042A2BC /* LaunchScreen.storyboard in Resources */,
+				E2694FBD2BA9C0D20042A2BC /* Assets.xcassets in Resources */,
+				E2694FB82BA9C0CF0042A2BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2694FC42BA9C0D20042A2BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2694FCE2BA9C0D20042A2BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2694FA92BA9C0CF0042A2BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2694FB52BA9C0CF0042A2BC /* ViewController.swift in Sources */,
+				E2694FB12BA9C0CF0042A2BC /* AppDelegate.swift in Sources */,
+				E2694FBB2BA9C0CF0042A2BC /* Dyslexi.xcdatamodeld in Sources */,
+				E2694FB32BA9C0CF0042A2BC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2694FC22BA9C0D20042A2BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2694FCB2BA9C0D20042A2BC /* DyslexiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2694FCC2BA9C0D20042A2BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2694FD52BA9C0D20042A2BC /* DyslexiUITests.swift in Sources */,
+				E2694FD72BA9C0D20042A2BC /* DyslexiUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2694FC82BA9C0D20042A2BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2694FAC2BA9C0CF0042A2BC /* Dyslexi */;
+			targetProxy = E2694FC72BA9C0D20042A2BC /* PBXContainerItemProxy */;
+		};
+		E2694FD22BA9C0D20042A2BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2694FAC2BA9C0CF0042A2BC /* Dyslexi */;
+			targetProxy = E2694FD12BA9C0D20042A2BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E2694FB62BA9C0CF0042A2BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2694FB72BA9C0CF0042A2BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E2694FBE2BA9C0D20042A2BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2694FBF2BA9C0D20042A2BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2694FD82BA9C0D20042A2BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E2694FD92BA9C0D20042A2BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2694FDB2BA9C0D20042A2BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YCP29A84B3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Dyslexi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = veerjyot.sammi.Dyslexi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2694FDC2BA9C0D20042A2BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YCP29A84B3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Dyslexi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = veerjyot.sammi.Dyslexi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E2694FDE2BA9C0D20042A2BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YCP29A84B3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = veerjyot.sammi.DyslexiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dyslexi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dyslexi";
+			};
+			name = Debug;
+		};
+		E2694FDF2BA9C0D20042A2BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YCP29A84B3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = veerjyot.sammi.DyslexiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dyslexi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dyslexi";
+			};
+			name = Release;
+		};
+		E2694FE12BA9C0D20042A2BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YCP29A84B3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = veerjyot.sammi.DyslexiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dyslexi;
+			};
+			name = Debug;
+		};
+		E2694FE22BA9C0D20042A2BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YCP29A84B3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = veerjyot.sammi.DyslexiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dyslexi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2694FA82BA9C0CF0042A2BC /* Build configuration list for PBXProject "Dyslexi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2694FD82BA9C0D20042A2BC /* Debug */,
+				E2694FD92BA9C0D20042A2BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2694FDA2BA9C0D20042A2BC /* Build configuration list for PBXNativeTarget "Dyslexi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2694FDB2BA9C0D20042A2BC /* Debug */,
+				E2694FDC2BA9C0D20042A2BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2694FDD2BA9C0D20042A2BC /* Build configuration list for PBXNativeTarget "DyslexiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2694FDE2BA9C0D20042A2BC /* Debug */,
+				E2694FDF2BA9C0D20042A2BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2694FE02BA9C0D20042A2BC /* Build configuration list for PBXNativeTarget "DyslexiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2694FE12BA9C0D20042A2BC /* Debug */,
+				E2694FE22BA9C0D20042A2BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E2694FB92BA9C0CF0042A2BC /* Dyslexi.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E2694FBA2BA9C0CF0042A2BC /* Dyslexi.xcdatamodel */,
+			);
+			currentVersion = E2694FBA2BA9C0CF0042A2BC /* Dyslexi.xcdatamodel */;
+			path = Dyslexi.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E2694FA52BA9C0CF0042A2BC /* Project object */;
+}

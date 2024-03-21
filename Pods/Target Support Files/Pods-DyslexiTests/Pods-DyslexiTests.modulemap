@@ -1,0 +1,6 @@
+framework module Pods_DyslexiTests {
+  umbrella header "Pods-DyslexiTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

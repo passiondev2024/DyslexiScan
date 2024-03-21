@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01B0300DBE74C2E73E6EF14296E57714 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		0E9331170C50D1527A377C87B3FDC667 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		14DCB043C641BD1DDB4D6BDEE32EF12B /* Pods-Dyslexi-DyslexiUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DBA32BC9C0CADD7BC7901B19A1894D68 /* Pods-Dyslexi-DyslexiUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FB8A2A51B5F6D454056E6A178EFDCF5 /* Pods-Dyslexi-DyslexiUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E08BE86C0B24FF557FA7AA6422038F63 /* Pods-Dyslexi-DyslexiUITests-dummy.m */; };
+		5AE1D2166961AB196CA02B6E5F26D5F5 /* Pods-Dyslexi-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B91439BB25A1EA82A4BBE9BBF13567F2 /* Pods-Dyslexi-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87CA2B3CEBDE876ED7AB393D3516FADF /* Pods-DyslexiTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6CA16434481E2EDD85789D52267F19 /* Pods-DyslexiTests-dummy.m */; };
+		9C7AEBADF89823A88A47099D67360CF4 /* Pods-Dyslexi-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DAB85B4076836D15DB1E90A3BDB82EF /* Pods-Dyslexi-dummy.m */; };
+		C29511050FAE315CC4530B39A80C3736 /* Pods-DyslexiTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F543415C10B5978F0B7AFAD06195616 /* Pods-DyslexiTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC1714EB4548E488B3F057D0521ED0D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		256AD642F5C566405CAD58A5A313C963 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EADAA93618534FF38FD04C790055358;
+			remoteInfo = "Pods-Dyslexi";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07543E7C1D7B5FC3DEE940E2D2984423 /* Pods-DyslexiTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DyslexiTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0A00AE6A4D5AB0B93D3900A6605D9402 /* Pods-Dyslexi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Dyslexi.debug.xcconfig"; sourceTree = "<group>"; };
+		14A2A2DAC36469FDCFE71A3360711FC3 /* Pods-DyslexiTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DyslexiTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1DAB85B4076836D15DB1E90A3BDB82EF /* Pods-Dyslexi-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Dyslexi-dummy.m"; sourceTree = "<group>"; };
+		24ACA3E67EC5D452F32FFE0E475C820C /* Pods-Dyslexi.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Dyslexi.modulemap"; sourceTree = "<group>"; };
+		24BF7C70B7145A7D9196E7652AEF6900 /* Pods-DyslexiTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DyslexiTests-Info.plist"; sourceTree = "<group>"; };
+		2A2CD6895F791998423BD2C4805BBE4F /* Pods-DyslexiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DyslexiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2CCE5FD8E3134F87B44C149DB288DD5A /* Pods-Dyslexi-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Dyslexi-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2DB75644A63ADDD4E394237803FB8DB6 /* Pods-Dyslexi-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Dyslexi-acknowledgements.plist"; sourceTree = "<group>"; };
+		3A77933D917873927F3DE4C03672DCF1 /* Pods-Dyslexi-DyslexiUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Dyslexi-DyslexiUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3C7C90BF10A6037BE3BFC9563303629B /* Pods-DyslexiTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DyslexiTests"; path = Pods_DyslexiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DDE33A87AFECE91E08A21D55CBEB7A9 /* Pods-Dyslexi-DyslexiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Dyslexi-DyslexiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		51C72176CE708FEB43AE9266D0150C92 /* Pods-Dyslexi-DyslexiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Dyslexi-DyslexiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		586261B732737AF14B8404CD5DC8C307 /* Pods-Dyslexi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Dyslexi.release.xcconfig"; sourceTree = "<group>"; };
+		5C351210539AD211537CDF1FEF0A1FAD /* Pods-Dyslexi-DyslexiUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Dyslexi-DyslexiUITests-Info.plist"; sourceTree = "<group>"; };
+		6F543415C10B5978F0B7AFAD06195616 /* Pods-DyslexiTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DyslexiTests-umbrella.h"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		78CA78E5911D2B56A908BDFC906B43AE /* Pods-Dyslexi-DyslexiUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Dyslexi-DyslexiUITests.modulemap"; sourceTree = "<group>"; };
+		7D6CA16434481E2EDD85789D52267F19 /* Pods-DyslexiTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DyslexiTests-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A9D1CFF0955CCBBDD07F83BC4018DA75 /* Pods-Dyslexi */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Dyslexi"; path = Pods_Dyslexi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA49FCBFAD6AEC8BA4F4249D17554DB9 /* Pods-DyslexiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DyslexiTests.release.xcconfig"; sourceTree = "<group>"; };
+		B91439BB25A1EA82A4BBE9BBF13567F2 /* Pods-Dyslexi-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Dyslexi-umbrella.h"; sourceTree = "<group>"; };
+		BD50648B5ACCB49B8912E3E544514AE6 /* Pods-Dyslexi-DyslexiUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Dyslexi-DyslexiUITests"; path = Pods_Dyslexi_DyslexiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C352520A85AC7B03071AFF8C180B41F6 /* Pods-DyslexiTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DyslexiTests.modulemap"; sourceTree = "<group>"; };
+		CCB5631CDC2DFA380B6982710350C30D /* Pods-Dyslexi-DyslexiUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Dyslexi-DyslexiUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CFC85F59085C32EA441D6CA74A087C80 /* Pods-Dyslexi-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Dyslexi-Info.plist"; sourceTree = "<group>"; };
+		DBA32BC9C0CADD7BC7901B19A1894D68 /* Pods-Dyslexi-DyslexiUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Dyslexi-DyslexiUITests-umbrella.h"; sourceTree = "<group>"; };
+		E08BE86C0B24FF557FA7AA6422038F63 /* Pods-Dyslexi-DyslexiUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Dyslexi-DyslexiUITests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50F0D398AA2E9A622D4B0B29676CF519 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01B0300DBE74C2E73E6EF14296E57714 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76AAB806EF0177295351A47807AFD0C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E9331170C50D1527A377C87B3FDC667 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E173DC1EE2398C24CC67C467720C4E1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1714EB4548E488B3F057D0521ED0D9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5CDDBA92428A61CA5FFC6BFFDD8071F3 /* Pods-Dyslexi */ = {
+			isa = PBXGroup;
+			children = (
+				24ACA3E67EC5D452F32FFE0E475C820C /* Pods-Dyslexi.modulemap */,
+				2CCE5FD8E3134F87B44C149DB288DD5A /* Pods-Dyslexi-acknowledgements.markdown */,
+				2DB75644A63ADDD4E394237803FB8DB6 /* Pods-Dyslexi-acknowledgements.plist */,
+				1DAB85B4076836D15DB1E90A3BDB82EF /* Pods-Dyslexi-dummy.m */,
+				CFC85F59085C32EA441D6CA74A087C80 /* Pods-Dyslexi-Info.plist */,
+				B91439BB25A1EA82A4BBE9BBF13567F2 /* Pods-Dyslexi-umbrella.h */,
+				0A00AE6A4D5AB0B93D3900A6605D9402 /* Pods-Dyslexi.debug.xcconfig */,
+				586261B732737AF14B8404CD5DC8C307 /* Pods-Dyslexi.release.xcconfig */,
+			);
+			name = "Pods-Dyslexi";
+			path = "Target Support Files/Pods-Dyslexi";
+			sourceTree = "<group>";
+		};
+		6E1455D5399FF0395AC0690D3FCD325E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CDDBA92428A61CA5FFC6BFFDD8071F3 /* Pods-Dyslexi */,
+				9F28451BC571AFA3182958E2944AE842 /* Pods-Dyslexi-DyslexiUITests */,
+				9DDEC039312ECA85C561B6164A84EB5A /* Pods-DyslexiTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9DDEC039312ECA85C561B6164A84EB5A /* Pods-DyslexiTests */ = {
+			isa = PBXGroup;
+			children = (
+				C352520A85AC7B03071AFF8C180B41F6 /* Pods-DyslexiTests.modulemap */,
+				07543E7C1D7B5FC3DEE940E2D2984423 /* Pods-DyslexiTests-acknowledgements.markdown */,
+				14A2A2DAC36469FDCFE71A3360711FC3 /* Pods-DyslexiTests-acknowledgements.plist */,
+				7D6CA16434481E2EDD85789D52267F19 /* Pods-DyslexiTests-dummy.m */,
+				24BF7C70B7145A7D9196E7652AEF6900 /* Pods-DyslexiTests-Info.plist */,
+				6F543415C10B5978F0B7AFAD06195616 /* Pods-DyslexiTests-umbrella.h */,
+				2A2CD6895F791998423BD2C4805BBE4F /* Pods-DyslexiTests.debug.xcconfig */,
+				AA49FCBFAD6AEC8BA4F4249D17554DB9 /* Pods-DyslexiTests.release.xcconfig */,
+			);
+			name = "Pods-DyslexiTests";
+			path = "Target Support Files/Pods-DyslexiTests";
+			sourceTree = "<group>";
+		};
+		9F28451BC571AFA3182958E2944AE842 /* Pods-Dyslexi-DyslexiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				78CA78E5911D2B56A908BDFC906B43AE /* Pods-Dyslexi-DyslexiUITests.modulemap */,
+				CCB5631CDC2DFA380B6982710350C30D /* Pods-Dyslexi-DyslexiUITests-acknowledgements.markdown */,
+				3A77933D917873927F3DE4C03672DCF1 /* Pods-Dyslexi-DyslexiUITests-acknowledgements.plist */,
+				E08BE86C0B24FF557FA7AA6422038F63 /* Pods-Dyslexi-DyslexiUITests-dummy.m */,
+				5C351210539AD211537CDF1FEF0A1FAD /* Pods-Dyslexi-DyslexiUITests-Info.plist */,
+				DBA32BC9C0CADD7BC7901B19A1894D68 /* Pods-Dyslexi-DyslexiUITests-umbrella.h */,
+				51C72176CE708FEB43AE9266D0150C92 /* Pods-Dyslexi-DyslexiUITests.debug.xcconfig */,
+				4DDE33A87AFECE91E08A21D55CBEB7A9 /* Pods-Dyslexi-DyslexiUITests.release.xcconfig */,
+			);
+			name = "Pods-Dyslexi-DyslexiUITests";
+			path = "Target Support Files/Pods-Dyslexi-DyslexiUITests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				EE70C0431CD8ED35C397B0352E74CA92 /* Products */,
+				6E1455D5399FF0395AC0690D3FCD325E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE70C0431CD8ED35C397B0352E74CA92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9D1CFF0955CCBBDD07F83BC4018DA75 /* Pods-Dyslexi */,
+				BD50648B5ACCB49B8912E3E544514AE6 /* Pods-Dyslexi-DyslexiUITests */,
+				3C7C90BF10A6037BE3BFC9563303629B /* Pods-DyslexiTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3782A55DFE3193111902743017000B31 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14DCB043C641BD1DDB4D6BDEE32EF12B /* Pods-Dyslexi-DyslexiUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AA356107FC90D1E3FFCC18CBE45747D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE1D2166961AB196CA02B6E5F26D5F5 /* Pods-Dyslexi-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA1A3E081822BF494556F7E741949D7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C29511050FAE315CC4530B39A80C3736 /* Pods-DyslexiTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		20D0C3B955A2F96361D75E2785E9BFDC /* Pods-Dyslexi-DyslexiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2905E4CAC50A94A17247795B3D87C41B /* Build configuration list for PBXNativeTarget "Pods-Dyslexi-DyslexiUITests" */;
+			buildPhases = (
+				3782A55DFE3193111902743017000B31 /* Headers */,
+				C9CA0F0D074EF0DF43AE41555E496FBD /* Sources */,
+				76AAB806EF0177295351A47807AFD0C9 /* Frameworks */,
+				6C894117BE938780BA4E56CC16CEED5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Dyslexi-DyslexiUITests";
+			productName = Pods_Dyslexi_DyslexiUITests;
+			productReference = BD50648B5ACCB49B8912E3E544514AE6 /* Pods-Dyslexi-DyslexiUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		598391516B5F00C51CE60D4794F00455 /* Pods-DyslexiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5765BC261E1CD5FA9532E84901C297FF /* Build configuration list for PBXNativeTarget "Pods-DyslexiTests" */;
+			buildPhases = (
+				CEA1A3E081822BF494556F7E741949D7 /* Headers */,
+				D475C18EA6F8EF9650B5C48D9D9AD0CF /* Sources */,
+				50F0D398AA2E9A622D4B0B29676CF519 /* Frameworks */,
+				EFA8BFA3C678E7DC5F9983F2B5DE4D64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D29297F54168FB7253D690C673F94B28 /* PBXTargetDependency */,
+			);
+			name = "Pods-DyslexiTests";
+			productName = Pods_DyslexiTests;
+			productReference = 3C7C90BF10A6037BE3BFC9563303629B /* Pods-DyslexiTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		9EADAA93618534FF38FD04C790055358 /* Pods-Dyslexi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDE4DB73A397996707CB754C96887170 /* Build configuration list for PBXNativeTarget "Pods-Dyslexi" */;
+			buildPhases = (
+				9AA356107FC90D1E3FFCC18CBE45747D /* Headers */,
+				5C43A749DB9931D9B5AF21B0A6A8363C /* Sources */,
+				E173DC1EE2398C24CC67C467720C4E1E /* Frameworks */,
+				1567A2043F8B5EFC1D04C2D81728EFAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Dyslexi";
+			productName = Pods_Dyslexi;
+			productReference = A9D1CFF0955CCBBDD07F83BC4018DA75 /* Pods-Dyslexi */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = EE70C0431CD8ED35C397B0352E74CA92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9EADAA93618534FF38FD04C790055358 /* Pods-Dyslexi */,
+				20D0C3B955A2F96361D75E2785E9BFDC /* Pods-Dyslexi-DyslexiUITests */,
+				598391516B5F00C51CE60D4794F00455 /* Pods-DyslexiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1567A2043F8B5EFC1D04C2D81728EFAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C894117BE938780BA4E56CC16CEED5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFA8BFA3C678E7DC5F9983F2B5DE4D64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C43A749DB9931D9B5AF21B0A6A8363C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C7AEBADF89823A88A47099D67360CF4 /* Pods-Dyslexi-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9CA0F0D074EF0DF43AE41555E496FBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FB8A2A51B5F6D454056E6A178EFDCF5 /* Pods-Dyslexi-DyslexiUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D475C18EA6F8EF9650B5C48D9D9AD0CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87CA2B3CEBDE876ED7AB393D3516FADF /* Pods-DyslexiTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D29297F54168FB7253D690C673F94B28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Dyslexi";
+			target = 9EADAA93618534FF38FD04C790055358 /* Pods-Dyslexi */;
+			targetProxy = 256AD642F5C566405CAD58A5A313C963 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		32EF8E246A6353AB136188480585C3AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51C72176CE708FEB43AE9266D0150C92 /* Pods-Dyslexi-DyslexiUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Dyslexi-DyslexiUITests/Pods-Dyslexi-DyslexiUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Dyslexi-DyslexiUITests/Pods-Dyslexi-DyslexiUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4718FC883A0061EDD0102CCC68A2B82C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 586261B732737AF14B8404CD5DC8C307 /* Pods-Dyslexi.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Dyslexi/Pods-Dyslexi-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Dyslexi/Pods-Dyslexi.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5745C0F72339D1261D10340344F64C8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A2CD6895F791998423BD2C4805BBE4F /* Pods-DyslexiTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DyslexiTests/Pods-DyslexiTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DyslexiTests/Pods-DyslexiTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6582DE9A6F3B836A510BB652B07324A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A00AE6A4D5AB0B93D3900A6605D9402 /* Pods-Dyslexi.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Dyslexi/Pods-Dyslexi-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Dyslexi/Pods-Dyslexi.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6A5C026ED62BBFE3380CD257EEFAEB20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AEB77EC97007080DB5E057F7EAD32BF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DDE33A87AFECE91E08A21D55CBEB7A9 /* Pods-Dyslexi-DyslexiUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Dyslexi-DyslexiUITests/Pods-Dyslexi-DyslexiUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Dyslexi-DyslexiUITests/Pods-Dyslexi-DyslexiUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E873CA97BD124B21839AF13C9BE1CD18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FED0418EF49F143F6CDE31AA8A20B8B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA49FCBFAD6AEC8BA4F4249D17554DB9 /* Pods-DyslexiTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DyslexiTests/Pods-DyslexiTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DyslexiTests/Pods-DyslexiTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2905E4CAC50A94A17247795B3D87C41B /* Build configuration list for PBXNativeTarget "Pods-Dyslexi-DyslexiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32EF8E246A6353AB136188480585C3AC /* Debug */,
+				AEB77EC97007080DB5E057F7EAD32BF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A5C026ED62BBFE3380CD257EEFAEB20 /* Debug */,
+				E873CA97BD124B21839AF13C9BE1CD18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5765BC261E1CD5FA9532E84901C297FF /* Build configuration list for PBXNativeTarget "Pods-DyslexiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5745C0F72339D1261D10340344F64C8D /* Debug */,
+				FED0418EF49F143F6CDE31AA8A20B8B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDE4DB73A397996707CB754C96887170 /* Build configuration list for PBXNativeTarget "Pods-Dyslexi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6582DE9A6F3B836A510BB652B07324A2 /* Debug */,
+				4718FC883A0061EDD0102CCC68A2B82C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

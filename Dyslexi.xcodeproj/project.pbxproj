@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		623312E518A3F5853024AB48 /* Pods_Dyslexi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4826E8F291DCD381D259B244 /* Pods_Dyslexi.framework */; };
+		D0B55950C0DFAB47D3C024B4 /* Pods_DyslexiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 925A8BB7EF2BF9F9B17F257D /* Pods_DyslexiTests.framework */; };
 		E2694FB12BA9C0CF0042A2BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2694FB02BA9C0CF0042A2BC /* AppDelegate.swift */; };
 		E2694FB32BA9C0CF0042A2BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2694FB22BA9C0CF0042A2BC /* SceneDelegate.swift */; };
 		E2694FB52BA9C0CF0042A2BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2694FB42BA9C0CF0042A2BC /* ViewController.swift */; };
@@ -17,6 +19,9 @@
 		E2694FCB2BA9C0D20042A2BC /* DyslexiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2694FCA2BA9C0D20042A2BC /* DyslexiTests.swift */; };
 		E2694FD52BA9C0D20042A2BC /* DyslexiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2694FD42BA9C0D20042A2BC /* DyslexiUITests.swift */; };
 		E2694FD72BA9C0D20042A2BC /* DyslexiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2694FD62BA9C0D20042A2BC /* DyslexiUITestsLaunchTests.swift */; };
+		E2694FE52BA9F79A0042A2BC /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = E2694FE42BA9F79A0042A2BC /* GoogleGenerativeAI */; };
+		E2694FE92BAA0ADC0042A2BC /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2694FE82BAA0ADC0042A2BC /* ViewController2.swift */; };
+		E2D9B78D6E55B8D08644C269 /* Pods_Dyslexi_DyslexiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A47E2B9B161A64A15DF2F84A /* Pods_Dyslexi_DyslexiUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +42,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		303CEA33B09F451AA59E6610 /* Pods-Dyslexi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dyslexi.debug.xcconfig"; path = "Target Support Files/Pods-Dyslexi/Pods-Dyslexi.debug.xcconfig"; sourceTree = "<group>"; };
+		47D26ABCB33EE79276898370 /* Pods-DyslexiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DyslexiTests.release.xcconfig"; path = "Target Support Files/Pods-DyslexiTests/Pods-DyslexiTests.release.xcconfig"; sourceTree = "<group>"; };
+		4826E8F291DCD381D259B244 /* Pods_Dyslexi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dyslexi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		925A8BB7EF2BF9F9B17F257D /* Pods_DyslexiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DyslexiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A47E2B9B161A64A15DF2F84A /* Pods_Dyslexi_DyslexiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dyslexi_DyslexiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC5B6DC6C19DF856E487FCCF /* Pods-Dyslexi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dyslexi.release.xcconfig"; path = "Target Support Files/Pods-Dyslexi/Pods-Dyslexi.release.xcconfig"; sourceTree = "<group>"; };
+		D6A428C6E9DD11DA3ADE20B0 /* Pods-DyslexiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DyslexiTests.debug.xcconfig"; path = "Target Support Files/Pods-DyslexiTests/Pods-DyslexiTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E2694FAD2BA9C0CF0042A2BC /* Dyslexi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dyslexi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2694FB02BA9C0CF0042A2BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2694FB22BA9C0CF0042A2BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +63,9 @@
 		E2694FD02BA9C0D20042A2BC /* DyslexiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DyslexiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2694FD42BA9C0D20042A2BC /* DyslexiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DyslexiUITests.swift; sourceTree = "<group>"; };
 		E2694FD62BA9C0D20042A2BC /* DyslexiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DyslexiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E2694FE82BAA0ADC0042A2BC /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		E572D7A6D492B233EA50164C /* Pods-Dyslexi-DyslexiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dyslexi-DyslexiUITests.release.xcconfig"; path = "Target Support Files/Pods-Dyslexi-DyslexiUITests/Pods-Dyslexi-DyslexiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F9BB0AD36D5F066E7C6BE015 /* Pods-Dyslexi-DyslexiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dyslexi-DyslexiUITests.debug.xcconfig"; path = "Target Support Files/Pods-Dyslexi-DyslexiUITests/Pods-Dyslexi-DyslexiUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				623312E518A3F5853024AB48 /* Pods_Dyslexi.framework in Frameworks */,
+				E2694FE52BA9F79A0042A2BC /* GoogleGenerativeAI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0B55950C0DFAB47D3C024B4 /* Pods_DyslexiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +90,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2D9B78D6E55B8D08644C269 /* Pods_Dyslexi_DyslexiUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D19EA63F9B168CBDD05AF934 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				303CEA33B09F451AA59E6610 /* Pods-Dyslexi.debug.xcconfig */,
+				CC5B6DC6C19DF856E487FCCF /* Pods-Dyslexi.release.xcconfig */,
+				F9BB0AD36D5F066E7C6BE015 /* Pods-Dyslexi-DyslexiUITests.debug.xcconfig */,
+				E572D7A6D492B233EA50164C /* Pods-Dyslexi-DyslexiUITests.release.xcconfig */,
+				D6A428C6E9DD11DA3ADE20B0 /* Pods-DyslexiTests.debug.xcconfig */,
+				47D26ABCB33EE79276898370 /* Pods-DyslexiTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E2694FA42BA9C0CF0042A2BC = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +117,8 @@
 				E2694FC92BA9C0D20042A2BC /* DyslexiTests */,
 				E2694FD32BA9C0D20042A2BC /* DyslexiUITests */,
 				E2694FAE2BA9C0CF0042A2BC /* Products */,
+				D19EA63F9B168CBDD05AF934 /* Pods */,
+				E2708FB1D10DFA4793AA4012 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +138,7 @@
 				E2694FB02BA9C0CF0042A2BC /* AppDelegate.swift */,
 				E2694FB22BA9C0CF0042A2BC /* SceneDelegate.swift */,
 				E2694FB42BA9C0CF0042A2BC /* ViewController.swift */,
+				E2694FE82BAA0ADC0042A2BC /* ViewController2.swift */,
 				E2694FB62BA9C0CF0042A2BC /* Main.storyboard */,
 				E2694FBC2BA9C0D20042A2BC /* Assets.xcassets */,
 				E2694FBE2BA9C0D20042A2BC /* LaunchScreen.storyboard */,
@@ -130,6 +165,16 @@
 			path = DyslexiUITests;
 			sourceTree = "<group>";
 		};
+		E2708FB1D10DFA4793AA4012 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4826E8F291DCD381D259B244 /* Pods_Dyslexi.framework */,
+				A47E2B9B161A64A15DF2F84A /* Pods_Dyslexi_DyslexiUITests.framework */,
+				925A8BB7EF2BF9F9B17F257D /* Pods_DyslexiTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,6 +182,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2694FDA2BA9C0D20042A2BC /* Build configuration list for PBXNativeTarget "Dyslexi" */;
 			buildPhases = (
+				EF329592460BAE77697FC246 /* [CP] Check Pods Manifest.lock */,
 				E2694FA92BA9C0CF0042A2BC /* Sources */,
 				E2694FAA2BA9C0CF0042A2BC /* Frameworks */,
 				E2694FAB2BA9C0CF0042A2BC /* Resources */,
@@ -146,6 +192,9 @@
 			dependencies = (
 			);
 			name = Dyslexi;
+			packageProductDependencies = (
+				E2694FE42BA9F79A0042A2BC /* GoogleGenerativeAI */,
+			);
 			productName = Dyslexi;
 			productReference = E2694FAD2BA9C0CF0042A2BC /* Dyslexi.app */;
 			productType = "com.apple.product-type.application";
@@ -154,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2694FDD2BA9C0D20042A2BC /* Build configuration list for PBXNativeTarget "DyslexiTests" */;
 			buildPhases = (
+				395EC4442432AD68AE4AE3FD /* [CP] Check Pods Manifest.lock */,
 				E2694FC22BA9C0D20042A2BC /* Sources */,
 				E2694FC32BA9C0D20042A2BC /* Frameworks */,
 				E2694FC42BA9C0D20042A2BC /* Resources */,
@@ -172,6 +222,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2694FE02BA9C0D20042A2BC /* Build configuration list for PBXNativeTarget "DyslexiUITests" */;
 			buildPhases = (
+				B8DA93537371F6E2BF7F1DBD /* [CP] Check Pods Manifest.lock */,
 				E2694FCC2BA9C0D20042A2BC /* Sources */,
 				E2694FCD2BA9C0D20042A2BC /* Frameworks */,
 				E2694FCE2BA9C0D20042A2BC /* Resources */,
@@ -218,6 +269,9 @@
 				Base,
 			);
 			mainGroup = E2694FA42BA9C0CF0042A2BC;
+			packageReferences = (
+				E2694FE32BA9F79A0042A2BC /* XCRemoteSwiftPackageReference "generative-ai-swift" */,
+			);
 			productRefGroup = E2694FAE2BA9C0CF0042A2BC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -256,11 +310,81 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		395EC4442432AD68AE4AE3FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DyslexiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8DA93537371F6E2BF7F1DBD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dyslexi-DyslexiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF329592460BAE77697FC246 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dyslexi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E2694FA92BA9C0CF0042A2BC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2694FE92BAA0ADC0042A2BC /* ViewController2.swift in Sources */,
 				E2694FB52BA9C0CF0042A2BC /* ViewController.swift in Sources */,
 				E2694FB12BA9C0CF0042A2BC /* AppDelegate.swift in Sources */,
 				E2694FBB2BA9C0CF0042A2BC /* Dyslexi.xcdatamodeld in Sources */,
@@ -441,6 +565,7 @@
 		};
 		E2694FDB2BA9C0D20042A2BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 303CEA33B09F451AA59E6610 /* Pods-Dyslexi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +594,7 @@
 		};
 		E2694FDC2BA9C0D20042A2BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC5B6DC6C19DF856E487FCCF /* Pods-Dyslexi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -497,6 +623,7 @@
 		};
 		E2694FDE2BA9C0D20042A2BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6A428C6E9DD11DA3ADE20B0 /* Pods-DyslexiTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -517,6 +644,7 @@
 		};
 		E2694FDF2BA9C0D20042A2BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47D26ABCB33EE79276898370 /* Pods-DyslexiTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -537,6 +665,7 @@
 		};
 		E2694FE12BA9C0D20042A2BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9BB0AD36D5F066E7C6BE015 /* Pods-Dyslexi-DyslexiUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -555,6 +684,7 @@
 		};
 		E2694FE22BA9C0D20042A2BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E572D7A6D492B233EA50164C /* Pods-Dyslexi-DyslexiUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -611,6 +741,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E2694FE32BA9F79A0042A2BC /* XCRemoteSwiftPackageReference "generative-ai-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/generative-ai-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.8;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E2694FE42BA9F79A0042A2BC /* GoogleGenerativeAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E2694FE32BA9F79A0042A2BC /* XCRemoteSwiftPackageReference "generative-ai-swift" */;
+			productName = GoogleGenerativeAI;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		E2694FB92BA9C0CF0042A2BC /* Dyslexi.xcdatamodeld */ = {

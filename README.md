@@ -15,7 +15,7 @@ DyslexiScan aims to break down barriers to reading and learning for individuals 
 
 
 
-![iFrameScreenshot - 08:11:23, 11:28 AM-4](https://github.com/VeerjyotSingh/Dyslexic/assets/103166939/3ca347bc-ebc7-4b54-8e45-82d935b7bd67)
-![iFrameScreenshot - 08:11:23, 11:28 AM](https://github.com/VeerjyotSingh/Dyslexic/assets/103166939/dcc6c9d7-5e05-4064-86ee-f7f3f8d9e377)
-![iFrameScreenshot - 08:11:23, 11:28 AM-3](https://github.com/VeerjyotSingh/Dyslexic/assets/103166939/c9c9b9ec-1e6e-4e1d-9d8e-b6897878e925)
-![iFrameScreenshot - 08:11:23, 11:28 AM-2](https://github.com/VeerjyotSingh/Dyslexic/assets/103166939/70bf2595-3b1b-4c9b-9a08-68a415a7418a)
+
+![iFrameScreenshot - 21:03:24, 20:53-2](https://github.com/VeerjyotSingh/DyslexiScan/assets/103166939/1f1575a3-9c5a-4efd-b5a3-a9cb62f91e6c)
+![iFrameScreenshot - 21:03:24, 20:53](https://github.com/VeerjyotSingh/DyslexiScan/assets/103166939/1e6b377f-b703-485a-b4a8-aa5e0c3dcb78)
+![iFrameScreenshot - 21:03:24, 20:53-3](https://github.com/VeerjyotSingh/DyslexiScan/assets/103166939/d72925fc-33a2-40e8-bd4d-954988641e7f)

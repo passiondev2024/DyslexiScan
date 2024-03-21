@@ -1,18 +1,16 @@
-Introduction:
-Dyslexia is a neurodevelopment disorder that affects an individual's ability to read, write, and comprehend written language. To support individuals with dyslexia, we present DyslexiScan, a revolutionary iOS app powered by Apple's Vision AI and Open AI (Language Model) to enhance the reading experience for those facing dyslexia-related challenges.
-Understanding Dyslexia:
-Dyslexia is characterised by difficulties in decoding words, recognising spelling patterns, and comprehending written language. It can affect self-esteem and limit access to educational and professional opportunities. DyslexiScan aims to bridge this gap by making text more accessible and understandable for individuals without dyslexia.
-DyslexiScan Features:
-1. Text Recognition: DyslexiScan utilizes the power of Apple's Vision AI to recognise and extract text from images in real-time. Users can simply point their device's camera at a book, document, or any printed material, and DyslexiScan will instantly identify and display the text on the screen.
-2. Dyslexic Text Conversion: DyslexiScan doesn't stop at recognition. It leverages on Open ai GPT-Model to convert recognised text from its dyslexic format to a more non-dyslexic-friendly version. The app transforms complex words written by dyslexic person into simpler, more straightforward alternatives, making it easier for user's without dyslexia to read and understand text writen by dyslexic person.
-3. Text-to-Speech: For an inclusive reading experience, DyslexiScan offers a built-in text-to-speech feature. Users can tap on button, and the app will read it aloud. This feature is valuable for auditory learners and those who benefit from simultaneous visual and auditory input.
-4. Save and Share: DyslexiScan allows users to copy converted text for future reference or share them with teachers, colleagues, or friends. The app's sharing capabilities promote accessibility and collaboration.
+Problem Addressed:
+The solution addresses the challenges faced by individuals with dyslexia, a neurodevelopment disorder affecting reading, writing, and comprehension skills. Dyslexia can hinder educational and professional opportunities and impact self-esteem. The primary problem tackled by DyslexiScan is to make text written by Dyslexic Person more understandable for individuals without dyslexia.
+
+DyslexiScan is a revolutionary iOS app that leverages Apple's Vision AI and Google's Gemini to enhance the reading experience for individuals without dyslexia. The app offers several features designed to address to bridge gap between Non-dyslexic and Dyslexic person.
+
 How DyslexiScan Works:
-	Text Capture: Users point their device's camera at the text, and DyslexiScan captures the content.
-	Text Recognition: The app's Vision AI technology recognises the text, ensuring accuracy.
-	Dyslexic Conversion: DyslexiScan model provided by open AI to transform recognised text into a friendly format.
-	Text-to-Speech: DyslexiScan offers a text-to-speech feature for auditory support.
-	Save and Share: Users can copy the converted text for accessibility and collaboration.
+1.Text Capture: Users capture text using the device's camera.
+2.Text Recognition: Apple's Vision AI technology recognizes the text with high accuracy.
+3.Dyslexic Conversion: DyslexiScan's uses built in spell checker and Google's Gemini to transforms recognised text into a correct or non-dyslexic format.
+4.Text-to-Speech: The app provides a text-to-speech feature for auditory support.
+
+Conclusion:
+DyslexiScan aims to break down barriers to reading and learning for individuals with dyslexia. By combining advanced technologies from Apple's Vision AI and Google Gemini, DyslexiScan offers a seamless and personalized reading experience. The app bridges the gap between dyslexic text and conventional text regardless of their challenges.
 
 
 Conclusion:

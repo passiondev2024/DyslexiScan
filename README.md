@@ -13,10 +13,6 @@ Conclusion:
 DyslexiScan aims to break down barriers to reading and learning for individuals with dyslexia. By combining advanced technologies from Apple's Vision AI and Google Gemini, DyslexiScan offers a seamless and personalized reading experience. The app bridges the gap between dyslexic text and conventional text regardless of their challenges.
 
 
-Conclusion:
-Dyslexia should not be a barrier to enjoying the world of written knowledge. DyslexiScan is a compassionate companion that empowers individuals with dyslexia to unlock the potential of reading and learning. By combining Apple's advanced Vision AI and a Open AI model, DyslexiScan offers a seamless and personalised reading experience that bridges the gap between dyslexic text and its conventional counterpart. With DyslexiScan, we aim to make the joy of reading accessible to all, regardless of their reading challenges.
-Experience the transformative power of DyslexiScan and embark on a journey to a more inclusive and accessible reading world.
-
 
 
 ![iFrameScreenshot - 08:11:23, 11:28 AM-4](https://github.com/VeerjyotSingh/Dyslexic/assets/103166939/3ca347bc-ebc7-4b54-8e45-82d935b7bd67)

@@ -4,10 +4,10 @@ The solution addresses the challenges faced by individuals with dyslexia, a neur
 DyslexiScan is a revolutionary iOS app that leverages Apple's Vision AI and Google's Gemini to enhance the reading experience for individuals without dyslexia. The app offers several features designed to address to bridge gap between Non-dyslexic and Dyslexic person.
 
 How DyslexiScan Works:
-1.Text Capture: Users capture text using the device's camera.
-2.Text Recognition: Apple's Vision AI technology recognizes the text with high accuracy.
-3.Dyslexic Conversion: DyslexiScan's uses built in spell checker and Google's Gemini to transforms recognised text into a correct or non-dyslexic format.
-4.Text-to-Speech: The app provides a text-to-speech feature for auditory support.
+  1.Text Capture: Users capture text using the device's camera.
+  2.Text Recognition: Apple's Vision AI technology recognizes the text with high accuracy.
+  3.Dyslexic Conversion: DyslexiScan's uses built in spell checker and Google's Gemini to transforms recognised text into a correct or non-dyslexic format.
+  4.Text-to-Speech: The app provides a text-to-speech feature for auditory support.
 
 Conclusion:
 DyslexiScan aims to break down barriers to reading and learning for individuals with dyslexia. By combining advanced technologies from Apple's Vision AI and Google Gemini, DyslexiScan offers a seamless and personalized reading experience. The app bridges the gap between dyslexic text and conventional text regardless of their challenges.

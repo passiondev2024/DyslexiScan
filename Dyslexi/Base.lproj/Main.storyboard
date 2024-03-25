@@ -16,30 +16,8 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fy5-SM-Or8">
-                                <rect key="frame" x="171.66666666666666" y="737" width="49.666666666666657" height="82"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="82" id="IfM-QI-vxY"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="44" id="Jlt-cb-D18"/>
-                                </constraints>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain">
-                                    <imageReference key="image" image="circle.dashed.inset.filled" catalog="system" symbolScale="large" variableValue="0.0"/>
-                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage"/>
-                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="captureButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oJR-SP-Zu9"/>
-                                </connections>
-                            </button>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="Fy5-SM-Or8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FXd-cJ-jIq"/>
-                            <constraint firstAttribute="bottom" secondItem="Fy5-SM-Or8" secondAttribute="bottom" constant="33" id="ShM-ad-bSm"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Dyslexiscan" leftItemsSupplementBackButton="YES" id="uz9-2J-DfB"/>
                     <connections>
@@ -78,6 +56,18 @@
                     </view>
                     <navigationItem key="navigationItem" id="Vyx-pB-gjz">
                         <barButtonItem key="backBarButtonItem" title="Back" id="KMu-N7-1I1"/>
+                        <barButtonItem key="rightBarButtonItem" id="3aR-0W-IlR">
+                            <imageReference key="image" image="speaker.wave.2.fill" catalog="system" symbolScale="large" renderingMode="hierarchical">
+                                <hierarchicalColors>
+                                    <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </hierarchicalColors>
+                            </imageReference>
+                            <connections>
+                                <action selector="speak:" destination="FeE-kO-4rG" id="2Qp-1z-6Nj"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="textView" destination="dUP-Rd-OaK" id="rnz-vx-s6O"/>
@@ -117,7 +107,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="circle.dashed.inset.filled" catalog="system" width="128" height="123"/>
+        <image name="speaker.wave.2.fill" catalog="system" width="128" height="88"/>
         <namedColor name="AccentColor">
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

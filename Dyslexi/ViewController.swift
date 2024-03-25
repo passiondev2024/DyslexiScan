@@ -9,12 +9,22 @@ import Vision
 import GoogleGenerativeAI
 import AVFoundation
 
+struct easyVariables {
+    let prePrompt = "here is a broken paragraph, please make sense . don't change sense of the paragraph: "
+    let geminiKey = "AIzaSyCLlQr3VB8YPSp5o5RBLymF7M1gA3gFakU"
+    let geminiModel = "gemini-pro"
+    let lang = "en"
+    let rate:Float = 0.55
+}
+
+
+
 class ViewController: UIViewController , AVCapturePhotoCaptureDelegate{
     
     //initializing Generative Model
     var CapturedPhoto:UIImage?
-    let model = GenerativeModel(name: "gemini-pro", apiKey: "AIzaSyCLlQr3VB8YPSp5o5RBLymF7M1gA3gFakU")
-    var prompt = "fix the following paragraph. Don't add any additional information or phrases or words: "
+    let model = GenerativeModel(name: easyVariables().geminiModel, apiKey: easyVariables().geminiKey)
+    var prompt = easyVariables().prePrompt
     var responder = ""
     
     private var captureSession = AVCaptureSession()
@@ -24,7 +34,6 @@ class ViewController: UIViewController , AVCapturePhotoCaptureDelegate{
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("View has loaded")
         // Set up the capture session
         captureSession.sessionPreset = .photo
         
@@ -87,8 +96,7 @@ class ViewController: UIViewController , AVCapturePhotoCaptureDelegate{
             Task {
                 do {
                     try await GeminiRequest(prompt: prompt)
-                    print("finished")
-                    prompt = "fix the following paragraph. Don't add any additional information or phrases or words: "
+                    prompt = easyVariables().prePrompt
                 } catch {
                     print(error)
                 }
@@ -105,6 +113,10 @@ class ViewController: UIViewController , AVCapturePhotoCaptureDelegate{
         let response = try await model.generateContent(prompt)
         if let text = response.text {
             self.responder = text
+            print()
+            print("Gemini responded:- ")
+            print(text)
+            print()
         }
         performSegue(withIdentifier: "TextShow",sender: self)
     }
@@ -148,9 +160,13 @@ extension ViewController {
             
             // Output recognized text
             print(text)
-            var corr = self.correctDyslexicText(text)
+            let corr = self.correctDyslexicText(text)
             print(corr)
-            self.prompt = corr //sending generated text to promt
+            self.prompt += corr //sending generated text to promt
+            print("Recogonzed text is as follow:- ")
+            print()
+            print(corr)
+            print()
         }
         
         // Set the text recognition level
@@ -171,19 +187,22 @@ extension ViewController {
 
 //handles spell correction
 extension ViewController{
+    
     func correctDyslexicText(_ text: String) -> String {
         let checker = UITextChecker()
         let range = NSRange(location: 0, length: text.utf16.count)
-        let misspelledRange = checker.rangeOfMisspelledWord(in: text, range: range, startingAt: 0, wrap: false, language: "en")
+        let misspelledRange = checker.rangeOfMisspelledWord(in: text, range: range, startingAt: 0, wrap: false, language: easyVariables().lang)
         
         var correctedText = text
         if misspelledRange.location != NSNotFound {
-            let suggestions = checker.guesses(forWordRange: misspelledRange, in: text, language: "en")
+            let suggestions = checker.guesses(forWordRange: misspelledRange, in: text, language: easyVariables().lang)
             if let firstSuggestion = suggestions?.first {
                 correctedText.replaceSubrange(Range(misspelledRange, in: text)!, with: firstSuggestion)
             }
         }
-        
+        print("Corrected text by spell checker is as follow :- ")
+        print()
+        print(correctedText)
         return correctedText
     }
 

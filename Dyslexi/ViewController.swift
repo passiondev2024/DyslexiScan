@@ -10,11 +10,12 @@ import GoogleGenerativeAI
 import AVFoundation
 
 struct easyVariables {
-    let prePrompt = "here is a broken paragraph, please make sense . don't change sense of the paragraph: "
+    let prePrompt = "I am giving you a paragraph with broken text written by a dyslexic or a kid. Rewrite the paragraph do not changing any sense and also at end mention the mistakes in sentence paragraph:"
     let geminiKey = "AIzaSyCLlQr3VB8YPSp5o5RBLymF7M1gA3gFakU"
     let geminiModel = "gemini-pro"
     let lang = "en"
     let rate:Float = 0.55
+    var dict = {}
 }
 
 
@@ -30,6 +31,9 @@ class ViewController: UIViewController , AVCapturePhotoCaptureDelegate{
     private var captureSession = AVCaptureSession()
     private var capturePhotoOutput = AVCapturePhotoOutput()
     private var videoPreviewLayer: AVCaptureVideoPreviewLayer!
+    
+    override func viewWillAppear(_ animated: Bool) {
+    }
     
     
     override func viewDidLoad() {
@@ -163,8 +167,8 @@ extension ViewController {
             let corr = self.correctDyslexicText(text)
             print(corr)
             self.prompt += corr //sending generated text to promt
-            print("Recogonzed text is as follow:- ")
             print()
+            print("Recogonzed text is as follow:- ")
             print(corr)
             print()
         }
@@ -186,6 +190,8 @@ extension ViewController {
 
 
 //handles spell correction
+
+
 extension ViewController{
     
     func correctDyslexicText(_ text: String) -> String {
